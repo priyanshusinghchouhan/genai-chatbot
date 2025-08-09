@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Chat Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">AI</div>
+                <span id="headertitle">GenAI Assistant</span>
+            </div>
+            <div class="status-indicator">
+                <div class="status-dot"></div>
+                <span>Online</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <div class="welcome-message">
+                        <h1 class="welcome-title">Welcome to GenAI Assistant</h1>
+                        <p class="welcome-subtitle">I'm here to help you with questions, creative tasks, analysis, and more. Start a conversation below!</p>
+                        
+                        <div class="feature-pills">
+                            <div class="feature-pill">💡 Creative Writing</div>
+                            <div class="feature-pill">🔍 Research & Analysis</div>
+                            <div class="feature-pill">💻 Code Assistance</div>
+                            <div class="feature-pill">📚 Learning Support</div>
+                        </div>
+
+                        <div class="sample-messages">
+                            <p class="sample-title">Sample conversation:</p>
+                            
+                            <div class="message user">
+                                <div class="message-avatar">You</div>
+                                <div class="message-content">
+                                    <div class="message-bubble" id="message-Bubble">
+                                        Can you explain how machine learning works in simple terms?
+                                    </div>
+                                    <div class="message-time">2:30 PM</div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="message assistant">
+                                <div class="message-avatar">AI</div>
+                                <div class="message-content" id="message-output">
+                                    <div class="message-bubble">
+                                        Machine learning is like teaching a computer to recognize patterns, similar to how you learn to recognize faces. Instead of programming specific rules, we show the computer lots of examples so it can learn to make predictions or decisions on new data it hasn't seen before.
+                                    </div>
+                                    <div class="message-time">2:31 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="input-container">
+                    <form class="input-form" id="input-Form" method="post" action="#" autocomplete="off">
+                        <div class="input-wrapper">
+                            <textarea 
+                                id="message-Input"
+                                class="message-input" 
+                                name="message"
+                                placeholder="Type your message here..."
+                                rows="2"
+                                required
+                                aria-label="Type your message"
+                            ></textarea>
+                        </div>
+                        <button type="submit" id="send-Button" class="send-button" aria-label="Send message">
+                            <svg class="send-icon" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                            </svg>
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+      
+        <footer class="footer-info">
+            <p>Ready to connect to your GenAI backend API • Built with modern web standards</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
