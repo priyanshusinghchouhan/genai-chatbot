@@ -69,19 +69,21 @@ nodemon index.js
 
 
 ## 📌 Usage
-
+```
 1. Start backend with `node index.js`  
 2. Open `index.html` in your browser  
 3. Type your message and get AI-generated responses from the OpenRouter API  
-
+```
 ---
 
+```
 ## 🔑 Example .env file
 
 OPENROUTER_API_KEY=your_openrouter_api_key
-
+```
 ---
-
+```
 ## 📜 License
 
 This project is licensed under the MIT License.
+```
