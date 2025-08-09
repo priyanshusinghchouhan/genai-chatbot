@@ -3,6 +3,11 @@
 A simple AI-powered chatbot built using Node.js, Express, HTML, CSS, and JavaScript.  
 This project integrates with the OpenRouter API for AI responses and uses CORS for frontend-backend communication.
 
+## 🖼 Preview
+
+![Chatbot UI Preview](https://raw.githubusercontent.com/priyanshusinghchouhan/genai-chatbot/refs/heads/main/assets/genaiUI.png)
+
+
 ---
 
 ## 🚀 Features
