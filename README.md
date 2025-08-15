@@ -86,4 +86,3 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 ## 📜 License
 
 This project is licensed under the MIT License.
-```
